@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Weather API</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="particles" id="particles"></div>
+    <div class="voice-indicator" id="voiceBtn" title="Voice Search">🎤</div>
+    
+    <div class="container">
+        <button class="settings-toggle" onclick="toggleSettings()">⚙️</button>
+        
+        <div class="settings-panel" id="settingsPanel">
+            <div class="setting-item">
+                <span>Dark Mode</span>
+                <div class="toggle-switch" onclick="toggleDarkMode()"></div>
+            </div>
+            <div class="setting-item">
+                <span>Auto Refresh</span>
+                <div class="toggle-switch" onclick="toggleAutoRefresh()"></div>
+            </div>
+            <div class="setting-item">
+                <span>Sound Effects</span>
+                <div class="toggle-switch" onclick="toggleSoundEffects()"></div>
+            </div>
+            <div class="setting-item">
+                <span>Celsius/Fahrenheit</span>
+                <div class="toggle-switch" onclick="toggleTemperatureUnit()"></div>
+            </div>
+            <div class="setting-item">
+                <span>Notifications</span>
+                <div class="toggle-switch active" onclick="toggleNotifications()"></div>
+            </div>
+        </div>
+
+        <div class="header">
+            <h1>🌤️ <span>Advanced Weather Dashboard</span></h1>
+            <div class="current-time" id="currentTime"></div>
+        </div>
+        
+        <div class="api-info">
+            <h3>✨ Advanced Weather Intelligence</h3>
+            <p>Discover comprehensive weather insights with AI-powered forecasting, air quality monitoring, voice search, comparison tools, and much more. Your ultimate weather companion!</p>
+        </div>
+
+        <div class="favorites">
+            <h3 style="color: white; margin-bottom: 15px;">⭐ Favorite Cities</h3>
+            <div class="favorite-cities" id="favoriteCities"></div>
+            <div class="export-options">
+                <button class="btn btn-success" onclick="shareWeather()">🔗 Share</button>
+            </div>
+        </div>
+
+        <div class="search-section">
+            <div class="search-container">
+                <div class="search-icon">🔍</div>
+                <input type="text" class="search-input" id="locationInput" placeholder="🌍 Search any location worldwide..." />
+                <div class="suggestion-list" id="suggestionList"></div>
+            </div>
+            <div class="action-buttons">
+                <button class="btn btn-primary" onclick="getWeather()" id="fetchBtn">🔮 Get Weather</button>
+                <button class="btn btn-secondary" onclick="getCurrentLocation()">📍 My Location</button>
+                <button class="btn btn-success" onclick="toggleComparison()">⚖️ Compare</button>
+            </div>
+        </div>
+
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>Gathering atmospheric intelligence...</p>
+        </div>
+
+        <div id="mainResult" class="weather-grid"></div>
+        <div id="comparisonResult" class="comparison-mode"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
