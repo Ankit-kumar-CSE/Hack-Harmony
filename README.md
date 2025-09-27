@@ -45,3 +45,6 @@ More features which we can change through settings:
             3-Sound effects
             4-Temp unit change
             5-Notifications
+
+
+            #### NOT AI GENERATED MADE BY ME AND MY TEAMATE
