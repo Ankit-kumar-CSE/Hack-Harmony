@@ -47,4 +47,5 @@ More features which we can change through settings:
             5-Notifications
 
 
-            #### NOT AI GENERATED MADE BY ME AND MY TEAMATE
+            ####  Developed from scratch by me and my teammate. We utilized AI-driven tools (such as GitHub Copilot or ChatGPT) to assist with boilerplate code     
+            ,     generation and debugging, ensuring a swift and efficient development process while maintaining full ownership of the core logic and design.
