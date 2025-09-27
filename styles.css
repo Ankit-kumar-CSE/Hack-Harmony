@@ -563,6 +563,18 @@ h1 {
     25% { transform: translateX(-5px); }
     75% { transform: translateX(5px); }
 }
+
+.remove-favorite {
+    margin-left: 8px;
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.remove-favorite:hover {
+    color: #ff6b6b;
+}
+
 .comparison-mode {
     display: none;
     grid-template-columns: 1fr 1fr;
