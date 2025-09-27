@@ -48,4 +48,4 @@ More features which we can change through settings:
 
 
             ####  Developed from scratch by me and my teammate. We utilized AI-driven tools (such as GitHub Copilot or ChatGPT) to assist with boilerplate code     
-            ,     generation and debugging, ensuring a swift and efficient development process while maintaining full ownership of the core logic and design.
+            generation and debugging, ensuring a swift and efficient development process while maintaining full ownership of the core logic and design.
