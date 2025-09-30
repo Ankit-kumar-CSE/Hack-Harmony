@@ -45,7 +45,3 @@ More features which we can change through settings:
             3-Sound effects
             4-Temp unit change
             5-Notifications
-
-
-            ####  Developed from scratch by me and my teammate. We utilized AI-driven tools (such as GitHub Copilot or ChatGPT) to assist with boilerplate code     
-            generation and debugging, ensuring a swift and efficient development process while maintaining full ownership of the core logic and design.
